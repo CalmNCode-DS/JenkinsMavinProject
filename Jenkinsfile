@@ -29,7 +29,7 @@ pipeline{
 	
 	stage("Email build status"){
 		steps{
-		 mail bcc: '', body: "$(env.JOB_NAME) - Build#$(env.BUILD_NUMBER) - $(currentBuild.CurrentResult)\n\nCheck console output at $(env.BUILD_URL)", cc: '', from: '', replyTo: '', subject: 'Sample Subject', to: 'dds.dhiraj21@gmail.com'
+		 mail body: '$(env.JOB_NAME) - Build#$(env.BUILD_NUMBER) - $(currentBuild.CurrentResult)\n\nCheck console output at $(env.BUILD_URL)', subject: 'Build status', to: 'dds.dhiraj21@gmail.com'
 		}
 	}
  
