@@ -1,0 +1,27 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.mycompany.app:Jenkins >----------------------
+[INFO] Building Jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ Jenkins ---
+[INFO] Deleting E:\Maven\Mevan_REPO\my-app\Jenkins\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ Jenkins ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Maven\Mevan_REPO\my-app\Jenkins\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ Jenkins ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to E:\Maven\Mevan_REPO\my-app\Jenkins\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ Jenkins ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Maven\Mevan_REPO\my-app\Jenkins\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ Jenkins ---
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 27262976 bytes for Failed to commit area from 0x0000000089800000 to 0x000000008b200000 of length 27262976.
+# An error report file with more information is saved as:
+# E:\Maven\Mevan_REPO\my-app\Jenkins\hs_err_pid10672.log

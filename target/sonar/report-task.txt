@@ -1,0 +1,6 @@
+projectKey=com.mycompany.app:Jenkins
+serverUrl=http://localhost:9000
+serverVersion=7.9.5.38598
+dashboardUrl=http://localhost:9000/dashboard?id=com.mycompany.app%3AJenkins
+ceTaskId=AXdYje8vHBE07awyjvgv
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXdYje8vHBE07awyjvgv
